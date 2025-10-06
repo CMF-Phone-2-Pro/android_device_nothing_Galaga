@@ -63,6 +63,8 @@ blob_fixups: blob_fixups_user_type = {
         'vendor/lib64/libcodec2_fsr.so',
         'vendor/lib64/hw/mt6878/android.hardware.graphics.mapper@4.0-impl-mediatek.so',
         'vendor/lib64/hw/mt6878/android.hardware.graphics.allocator-V2-mediatek.so',
+        'vendor/lib64/libcodec2_vpp_AIMEMC_plugin.so',
+        'vendor/lib64/libcodec2_vpp_AISR_plugin.so',
         'vendor/lib64/vendor.mediatek.hardware.pq_aidl-V2-ndk.so',
         'vendor/lib64/vendor.mediatek.hardware.pq_aidl-V4-ndk.so',
         'vendor/lib64/vendor.mediatek.hardware.pq_aidl-V7-ndk.so'
