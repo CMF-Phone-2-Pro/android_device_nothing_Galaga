@@ -43,6 +43,7 @@ blob_fixups: blob_fixups_user_type = {
     ): blob_fixup()
         .replace_needed('android.hardware.power-V4-ndk.so', 'android.hardware.power-V2-ndk.so'),
     'vendor/lib64/hw/audio.primary.mediatek.so': blob_fixup()
+        .replace_needed('android.hardware.audio.common-V1-ndk.so', 'android.hardware.audio.common-V2-ndk.so')
         .replace_needed('libalsautils.so', 'libalsautils-v33.so'),
 }  # fmt: skip
 
