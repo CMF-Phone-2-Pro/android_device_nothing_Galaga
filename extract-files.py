@@ -37,6 +37,11 @@ lib_fixups: lib_fixups_user_type = {
 blob_fixups: blob_fixups_user_type = {
     'system_ext/lib64/libimsma.so': blob_fixup()
         .replace_needed('libsink.so', 'libsink-mtk.so'),
+    (
+        'vendor/bin/hw/vendor.mediatek.hardware.mtkpower-service.mediatek',
+        'vendor/lib64/android.hardware.power-service-mediatek.so'
+    ): blob_fixup()
+        .replace_needed('android.hardware.power-V4-ndk.so', 'android.hardware.power-V2-ndk.so'),
     'vendor/lib64/hw/audio.primary.mediatek.so': blob_fixup()
         .replace_needed('libalsautils.so', 'libalsautils-v33.so'),
 }  # fmt: skip
