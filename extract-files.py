@@ -52,6 +52,12 @@ blob_fixups: blob_fixups_user_type = {
         .replace_needed('android.hardware.audio.common-V1-ndk.so', 'android.hardware.audio.common-V2-ndk.so')
         .replace_needed('libalsautils.so', 'libalsautils-v33.so'),
     (
+        'vendor/lib64/mt6878/libmtkcam_grallocutils.so',
+        'vendor/lib64/libmtkcam_grallocutils_aidlv1helper.so'
+    ): blob_fixup()
+        .replace_needed('android.hardware.graphics.allocator-V1-ndk.so', 'android.hardware.graphics.allocator-V2-ndk.so')
+        .replace_needed('android.hardware.graphics.common-V4-ndk.so', 'android.hardware.graphics.common-V6-ndk.so'),
+    (
         'vendor/bin/hw/mt6878/android.hardware.graphics.allocator-V2-service-mediatek.mt6878',
         'vendor/lib64/egl/mt6878/libGLES_mali.so',
         'vendor/lib64/libcodec2_fsr.so',
