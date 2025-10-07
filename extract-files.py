@@ -70,6 +70,11 @@ blob_fixups: blob_fixups_user_type = {
         'vendor/lib64/vendor.mediatek.hardware.pq_aidl-V7-ndk.so'
     ): blob_fixup()
         .replace_needed('android.hardware.graphics.common-V4-ndk.so', 'android.hardware.graphics.common-V6-ndk.so'),
+    (
+        'vendor/lib64/mt6878/lib3a.ae.stat.so',
+        'vendor/lib64/libarmnn_ndk.mtk.vndk.so',
+    ): blob_fixup()
+        .add_needed('liblog.so'),
     'vendor/lib64/mt6878/libpqconfig.so': blob_fixup()
         .replace_needed('android.hardware.sensors-V2-ndk.so', 'android.hardware.sensors-V3-ndk.so'),
 }  # fmt: skip
