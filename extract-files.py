@@ -79,7 +79,10 @@ blob_fixups: blob_fixups_user_type = {
         .clear_symbol_version('AHardwareBuffer_describe'),
     'vendor/lib64/libntcamskia.so': blob_fixup()
         .add_needed('libnativewindow.so'),
-    'vendor/lib64/hw/mt6878/vendor.mediatek.hardware.pq_aidl-impl.so': blob_fixup()
+    (
+	'vendor/lib64/hw/mt6878/vendor.mediatek.hardware.pq_aidl-impl.so',
+	'vendor/lib64/vendor.noth.hardware.camera-service-impl.so'
+    ): blob_fixup()
         .add_needed('libui_shim.so'),
     'vendor/lib64/mt6878/libpqconfig.so': blob_fixup()
         .replace_needed('android.hardware.sensors-V2-ndk.so', 'android.hardware.sensors-V3-ndk.so'),
