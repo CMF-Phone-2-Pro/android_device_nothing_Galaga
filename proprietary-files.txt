@@ -266,7 +266,7 @@ vendor/lib64/libBasicModule.so
 vendor/lib64/libJpgEncPipe.so
 vendor/lib64/libSQLiteModule_VER_ALL.so
 vendor/lib64/libaaa_aaautil.so
-vendor/lib64/libaaa_afassist_V2.so
+vendor/lib64/libaaa_afassist_V2.so;DISABLE_DEPS
 vendor/lib64/libaaa_gma.so
 vendor/lib64/libarcsoft_aiscenedetection.so
 vendor/lib64/libarcsoft_beautyshot.so
@@ -330,12 +330,12 @@ vendor/lib64/mt6878/ov50d40ofilm_mipi_raw_IdxMgr.so;SYMLINK=vendor/lib64/ov50d40
 vendor/lib64/mt6878/s5kgn9sp_mipi_raw_IdxMgr.so;SYMLINK=vendor/lib64/s5kgn9sp_mipi_raw_IdxMgr.so
 vendor/lib64/mt6878/sc202cs_mipi_raw_IdxMgr.so;SYMLINK=vendor/lib64/sc202cs_mipi_raw_IdxMgr.so
 vendor/lib64/mt6878/sc202cssj_mipi_raw_IdxMgr.so;SYMLINK=vendor/lib64/sc202cssj_mipi_raw_IdxMgr.so
-vendor/lib64/mt6878/lib3a.ae.so;SYMLINK=vendor/lib64/lib3a.ae.so
+vendor/lib64/mt6878/lib3a.ae.so;SYMLINK=vendor/lib64/lib3a.ae.so;DISABLE_DEPS
 vendor/lib64/mt6878/lib3a.af.assist.models1d.so;SYMLINK=vendor/lib64/lib3a.af.assist.models1d.so
 vendor/lib64/mt6878/lib3a.af.assist.models2d.so;SYMLINK=vendor/lib64/lib3a.af.assist.models2d.so
 vendor/lib64/mt6878/lib3a.af.assist.so;SYMLINK=vendor/lib64/lib3a.af.assist.so
 vendor/lib64/mt6878/lib3a.af.assist.utils.so;SYMLINK=vendor/lib64/lib3a.af.assist.utils.so
-vendor/lib64/mt6878/lib3a.af.core.so;SYMLINK=vendor/lib64/lib3a.af.core.so
+vendor/lib64/mt6878/lib3a.af.core.so;SYMLINK=vendor/lib64/lib3a.af.core.so;DISABLE_DEPS
 vendor/lib64/mt6878/lib3a.af.so;SYMLINK=vendor/lib64/lib3a.af.so
 vendor/lib64/mt6878/lib3a.aishutter.so;SYMLINK=vendor/lib64/lib3a.aishutter.so
 vendor/lib64/mt6878/lib3a.alsflicker.so;SYMLINK=vendor/lib64/lib3a.alsflicker.so
@@ -500,7 +500,7 @@ vendor/lib64/libvidhance.so
 vendor/lib64/libcodec2_fsr.so
 vendor/lib64/mt6878/lib3a.custom.stt.flow.so;SYMLINK=vendor/lib64/lib3a.custom.stt.flow.so
 vendor/lib64/libsilkybrightnesscore.so
-vendor/lib64/libaaa_afassistctrl.so
+vendor/lib64/libaaa_afassistctrl.so;DISABLE_DEPS
 vendor/lib64/libfeature.hdr10.so
 vendor/lib64/mt6878/libmtkcam_c2psperfctrl.so;SYMLINK=vendor/lib64/libmtkcam_c2psperfctrl.so
 vendor/lib64/libmtkcam_custom_feature.so
